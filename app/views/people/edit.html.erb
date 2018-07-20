@@ -1,0 +1,14 @@
+<% if !current_user.family.people.include?(@person) %>
+  <%= render 'noaccess' %>
+<% else %>
+  <h2> Edit <%= @person.full_name %> </h2>
+  <%= render 'form' %>
+  <br/>
+  <%= form_tag person_path(@person), method: 'delete' do %>
+  <% if @person == current_user %>
+    <%= submit_tag('Delete Account') %>
+  <% else %>
+    <%= submit_tag('Delete Person') %>
+  <% end %>
+  <% end %>
+<% end %>

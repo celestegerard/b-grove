@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mod2PrjoectGroup3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <br>
+  </head>
+
+  <div>
+    <body>
+      <% if current_user %>
+        <%= link_to "Home", '/' %>  | Signed in as <%= current_user.first_name %> | <%= link_to "My Account", edit_path %> |<%= link_to "Logout", '/logout' %>
+      <% else %>
+        <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/presignup' %> | <%= link_to "Create Family", new_family_path %>
+      <% end %>
+      <%= yield %>
+    </body>
+  </div>
+  <footer>
+  <small>&copy; 2018 <strong>Ancestry</strong></small>
+  </footer>
+
+</html>
