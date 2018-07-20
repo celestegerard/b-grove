@@ -7,12 +7,12 @@ watch it here : https://www.youtube.com/watch?v=9thwcUSSMWE&feature=youtu.be
 # motivation
 why this project exists
 
-# technology
-built exclusively with backend code, ruby on rails
+# ruby on rails
+built exclusively with backend code
 
 # features
-full CRUD application
-authentication
+full CRUD application,
+authentication, paperclip gem to integrate photography
 
 
 
