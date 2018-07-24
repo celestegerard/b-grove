@@ -1,21 +1,21 @@
-# grove
-A privatized social media platform to span generations of a family tree
 
-# demo
-watch it here : https://www.youtube.com/watch?v=9thwcUSSMWE&feature=youtu.be
+# Grove (backend)
+#### a privatized social media platform to span generations of a family tree ####
 
-# purpose
-to provide a way for families to store pricless memories and details about their relatives, living and deceased
+What is the name of your grandmother? Your great-grandmother? How about her mother? Grove is a ruby-on-rails app designed to clarify and inform a user about their family tree in a dynamic, easy to use way. Families are able to store pricless memories and details about their relatives, living and deceased.
 
-# ruby on rails
-built exclusively with backend code
+# Technology Used
+  * Ruby on Rails
+   * Custom CSS
 
-# features
-full CRUD application,
-authentication, paperclip gem to integrate photography
+# Demo
+[watch it here!](https://www.youtube.com/watch?v=bke-0cKB5ZI&feature=youtu.be)
 
+# Contributing
+We are not taking contributions at this time.
 
-
+# Created by
+Celeste Gerard, [Github](https://github.com/celestegerard)
 
 
 
