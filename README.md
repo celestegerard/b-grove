@@ -5,6 +5,8 @@
 What is the name of your grandmother? Your great-grandmother? How about her mother? Grove is a ruby-on-rails app designed to clarify and inform a user about their family tree in a dynamic, easy to use way. Families are able to store pricless memories and details about their relatives, living and deceased.
 
 # Technology Used
+Grove is an application built exclusively through the backend.
+
   * Ruby on Rails
    * Custom CSS
 
